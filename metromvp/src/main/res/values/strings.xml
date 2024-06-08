@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MetroMvp</string>
+    <string name="disconnect">اینترنت متصل نیست!</string>
+    <string name="facilities">امکانات</string>
+    <string name="noCross">تقاطع | ندارد</string>
+    <string name="hasCross">تقاطع | دارد</string>
+</resources>

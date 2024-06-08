@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="bg_app">#B4B4B5</color>
+    <color name="bg_toolbar">#575656</color>
+    <color name="bg_tajrish">#F81E1E</color>
+    <color name="bg_qaem">#00BCD4</color>
+    <color name="bg_eram">#FFC107</color>
+    <color name="bg_sadeghiye">#0E9514</color>
+    <color name="bg_basij">#EA45AD</color>
+    <color name="bg_facility">#A5A39E</color>
+
+
+    <color name="whiteSmoke">#f6f6f6</color>
+    <color name="darkSlategray">#202d3d</color>
+    <color name="darkSlategray70">#B3202d3d</color>
+    <color name="tartOrange">#F24C4C</color>
+    <color name="deepKoamaru">#363062</color>
+    <color name="metallicYellow">#FBCB0A</color>
+    <color name="charcoal">#354259</color>
+    <color name="shadowBlue">#7490A8</color>
+    <color name="pewterBlue">#92A9BD</color>
+    <color name="lotion">#fdfdfd</color>
+</resources>
