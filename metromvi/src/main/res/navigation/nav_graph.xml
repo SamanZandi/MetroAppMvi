@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/lineFragment">
+    <fragment
+        android:id="@+id/lineFragment"
+        android:name="com.zandroid.metromvi.ui.line.LineFragment"
+        android:label="fragment_line"
+        tools:layout="@layout/fragment_line" >
+        <action
+            android:id="@+id/action_lineFragment_to_stationFragment"
+            app:destination="@id/stationFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/stationFragment"
+        android:name="com.zandroid.metromvi.ui.station.StationFragment"
+        android:label="fragment_station"
+        tools:layout="@layout/fragment_station" >
+        <argument
+            android:name="lineId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_stationFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.zandroid.metromvi.ui.detail.DetailFragment"
+        android:label="DetailFragment" >
+        <argument
+            android:name="station"
+            app:argType="com.zandroid.metromvi.data.model.ResponseStation$ResponseStationItem" />
+    </fragment>
+</navigation>
